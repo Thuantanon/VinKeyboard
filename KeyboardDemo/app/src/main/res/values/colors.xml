@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack3">#333333</color>
+    <color name="colorBlack6">#666666</color>
+    <color name="colorBlack9">#999999</color>
+    <color name="colorWhite">#fff</color>
+
+
+    <color name="keyboard_bgcolor">#dde1e2</color>
+    <color name="colorGrey_f1f">#f1f1f1</color>
+    <color name="colorBlack111">#111111</color>
+    <color name="colorBlue">#0294FF</color>
+    <color name="black">#FF000000</color>
+    <color name="colorGrey999">#999999</color>
+    <color name="textview_key_board_copy_selector">#7f0d009f</color>
+
+</resources>

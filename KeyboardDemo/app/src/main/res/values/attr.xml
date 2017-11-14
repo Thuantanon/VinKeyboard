@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--可以设置字体粗细的 textview-->
+    <declare-styleable name="text_width">
+        <attr name="width" format="float"/>
+    </declare-styleable>
+
+
+</resources>

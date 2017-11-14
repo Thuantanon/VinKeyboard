@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrey_f1f"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/keyboard_bgcolor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorGrey_f1f"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/keyboard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/keyboard_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/text_complete"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/use_720_18sp_font" />
+    </RelativeLayout>
+
+
+    <!-- 键盘布局 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- 字母键盘 -->
+        <include
+            android:id="@+id/number"
+            layout="@layout/keyboard_number_and_letter_all_layout"
+            android:visibility="gone" />
+        <!-- 省份键盘 -->
+        <include
+            android:id="@+id/province"
+            layout="@layout/keyboard_province_layout"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>
